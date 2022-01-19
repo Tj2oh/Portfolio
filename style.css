@@ -5,11 +5,14 @@ body{
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 :root{
     --color-primary: #000000;
-    --color-secondary: #ffffff;
-    --color-border: #ffffff34;
+    --color-secondary: red;
+    --color-border: red;
     --font-staat: 'Staatliches', cursive;
     --font-os:  'Oswald', sans-serif;
     --font-ram: 'Rambla', sans-serif;
@@ -113,11 +116,18 @@ body{
     height: 200px;
     border-radius: 50%;
     margin: auto;
-    background: url(./assets/about.jpg) no-repeat;
+    background: url(./assets/ItsMe.jpg) no-repeat;
     background-size: 200%;
-    background-position: 40% 0;
+    background-position: 60% 0;
 }
 
+p{
+    color: red;
+}
+
+h1{
+    color: white;
+}
 
 @media screen and (min-width: 768px){
     .toggle-button{
