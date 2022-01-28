@@ -147,6 +147,13 @@ ul{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h2{
+    font-size: 30px;
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+}
+
 @media screen and (min-width: 768px){
     .toggle-button{
         display: none;
